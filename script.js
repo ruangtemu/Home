@@ -225,12 +225,12 @@ if (namaTamu && guestElement) {
 window.addEventListener('load', function() {
     const preloader = document.getElementById('preloader');
     
-    // Memberikan waktu delay 1.5 detik agar animasi terlihat sebentar
+    // Memberikan waktu delay 3 detik agar animasi terlihat sebentar
     setTimeout(() => {
         if (preloader) {
             preloader.classList.add('fade-out');
         }
-    }, 1500); 
+    }, 3000); 
 });
 
 // Inisialisasi awal

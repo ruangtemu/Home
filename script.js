@@ -168,7 +168,7 @@ onValue(ref(db, 'ucapan'), (snapshot) => {
 });
 
 function updateCountdown() {
-    const targetDate = new Date("June 14, 2026 09:00:00").getTime();
+    const targetDate = new Date("June 14, 2026 11:00:00").getTime();
     const now = new Date().getTime();
     const gap = targetDate - now;
     if (gap > 0) {

@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Undangan Fela & Rizki</title>
+
+    <meta property="og:title" content="Undangan Fela & Rizki">
+    <meta property="og:description" content="You're invited!">
+    <meta property="og:image" content="https://res.cloudinary.com/dzuf3srww/image/upload/v1778579324/Thumbhnailfela-rizki_vogyvo.png">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="1000">
+    <meta property="og:image:height" content="1000">
+    <meta property="og:type" content="website">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    
+    <div class="mobile-wrapper">
+        <div id="page1" class="page">
+    <div class="leaf leaf-top-left"></div>
+    <div class="leaf leaf-top-right"></div>
+    <div class="leaf leaf-bottom-left"></div>
+    <div class="leaf leaf-bottom-right"></div>
+    <div class="leaf leaf-side-left"></div>
+    <div class="leaf leaf-side-right"></div>
+    
+    <div class="hero-section">
+        <div class="image-overlay"></div>
+        <img src="https://res.cloudinary.com/dzuf3srww/image/upload/f_auto,q_auto/v1777899580/Cover1_da0uc1.jpg" alt="Fela & Rizki" class="main-photo">
+    </div>
+    
+    <div class="content-area">
+        <p class="the-wedding">THE WEDDING OF</p>
+        <h1 class="couple-name">Fela & Rizki</h1>
+        <div class="guest-box">
+            <p class="guest-prefix">Kepada Yth.</p>
+            <h2 id="guest-name" class="guest-name">Tamu Undangan</h2>
+
+        </div>
+        <button class="btn-open" id="btn-open" onclick="bukaUndangan()">
+            <span>Buka Undangan</span>
+        </button>
+    </div>
+</div>
+
+      <div id="page2" class="page hidden">
+    <div class="inner-card">
+        <div class="bunga-atas"></div>
+
+        <div class="wedding-title">THE WEDDING OF</div>
+        
+        <div class="photo-circle">
+            <img src="https://res.cloudinary.com/dzuf3srww/image/upload/f_auto,q_auto/v1777899566/IMG-20260503-WA0050_kv4f4k.jpg" alt="Foto Pasangan">
+        </div>
+        
+        <h1 class="name-display">Fela & Rizki</h1>
+        <p class="info-text">We invite you to celebrate our wedding</p>
+        <p class="date-highlight">Jum'at-Minggu,<br>12-14 Juni 2026</p>
+        
+        <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Wedding+Fela+%26+Rizki&dates=20260614T090000/20260614T120000&details=Selamat+datang+di+pernikahan+Fela+%26+Rizki.+Kami+sangat+menantikan+kehadiran+Anda!" target="_blank" class="save-button">
+            Save The Date
+        </a>
+    </div>
+</div>
+
+        
+      <div id="page3" class="page hidden">
+    <section class="mempelai-section">
+        <div class="mempelai-container">
+            
+            <div class="bunga-corner-bottom"></div>
+            
+            <div class="mempelai-card">
+                <span class="label-mempelai">The Bride</span> 
+                
+                <div class="image-wrapper">
+                    <img src="https://res.cloudinary.com/dzuf3srww/image/upload/f_auto,q_auto/v1777899580/cewek_nbnjss.jpg" 
+                         alt="Mempelai Wanita" 
+                         class="profile-img cewek">
+                </div>
+                
+                <h2 class="nama-mempelai">Fela Riski Ani</h2>
+                <p class="orang-tua">
+                    Putri ke-5 Bpk. Supoyo <br> 
+                    & Ibu Ratmi
+                </p>
+            </div>
+
+            <div class="divider-ampersand">&</div>
+
+            <div class="mempelai-card">
+                <span class="label-mempelai">The Groom</span>
+
+                <div class="image-wrapper">
+                    <img src="https://res.cloudinary.com/dzuf3srww/image/upload/f_auto,q_auto/v1777899574/Cowok_s7lxoy.jpg" 
+                         alt="Mempelai Pria" 
+                         class="profile-img cowok">
+                </div>
+                
+                <h2 class="nama-mempelai">KLK. M. Susi Rizqi</h2>
+                <p class="orang-tua">
+                    Putra ke-5 Bpk. Raharjo <br> 
+                    & Ibu Sri Sumini
+                </p>
+            </div>
+
+        </div>
+    </section>
+</div>
+<div id="page4" class="page hidden">
+    <section class="quotes-section">
+        <div class="quotes-container">
+            
+            <div class="quotes-decoration-top"></div>
+
+            <div class="quotes-content animasi-scroll-quotes">
+                <div class="basmalah">بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ</div>
+                
+                <p class="ayat-arab">
+                    وَمِنْ آيَاتِهِ أَنْ خَلَقَ لَكُمْ مِنْ أَنْفُسِكُمْ أَزْوَاجًا لِتَسْكُنُوا إِلَيْهَا وَجَعَلَ بَيْنَكُمْ مَوَدَّةً وَرَحْمَةً ۚ إِنَّ فِي ذَٰلِكَ لَآيَاتٍ لِقَوْمٍ يَتَفَكَّرُونَ
+                </p>
+
+                <div class="divider-quotes"></div>
+
+                <p class="arti-ayat">
+                    "Dan di antara tanda-tanda (kebesaran)-Nya ialah Dia menciptakan pasangan-pasangan untukmu dari jenismu sendiri, agar kamu cenderung dan merasa tenteram kepadanya, dan Dia menjadikan di antaramu rasa kasih dan sayang. Sungguh, pada yang demikian itu benar-benar terdapat tanda-tanda (kebesaran Allah) bagi kaum yang berpikir."
+                </p>
+
+                <p class="surah-name">( QS. Ar-Rum: 21 )</p>
+            </div>
+
+            <div class="quotes-decoration-bottom"></div>
+        </div>
+    </section>
+</div>
+
+   <section id="page5" class="hidden">
+    <div class="story-title">
+        <h3>Our Journey</h3>
+        <div class="divider-quotes"></div>
+    </div>
+
+    <div class="timeline">
+        <div class="timeline-item left">
+            <div class="timeline-content">
+                <span class="story-date">The Beginning</span>
+                <h4>Takdir & Perantara</h4>
+                <p>Setiap pertemuan adalah bagian dari takdir. Melalui perantara teman dan keluarga, kami dipertemukan. Siapa sangka, perkenalan sederhana itu menjadi awal dari kisah cinta kami.</p>
+            </div>
+        </div>
+
+        <div class="timeline-item right">
+            <div class="timeline-content">
+                <span class="story-date">The Space</span>
+                <h4>Menata Hati</h4>
+                <p>Kami pernah saling menjauh. Bukan karena hilang rasa, tapi karena ingin memperbaiki diri, menata hati, dan memastikan bahwa apa yang kami jalani bukan sekadar keinginan, melainkan kesiapan.</p>
+            </div>
+        </div>
+
+        <div class="timeline-item left">
+            <div class="timeline-content">
+                <span class="story-date">The Reunion</span>
+                <h4>Cara yang Tenang</h4>
+                <p>Allah kembali mendekatkan kami dengan cara yang lebih tenang, lebih dewasa, dan lebih pasti. Kami memahami, bahwa cinta yang baik bukan yang tergesa-gesa, melainkan yang dipersiapkan dengan kesungguhan.</p>
+            </div>
+        </div>
+
+        <div class="timeline-item right">
+            <div class="timeline-content">
+                <span class="story-date">The Commitment</span>
+                <h4>Niat & Ibadah</h4>
+                <p>Hari ini, kami memilih melangkah dengan niat serius. Mengikat tanggung jawab dalam janji suci. Semoga ini menjadi awal ibadah panjang dalam ridha Allah SWT hingga di akhirat kelak.</p>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="page6" class="hidden">
+    <div class="std-card">
+        
+        <div class="std-top-content">
+            <h3 class="std-title">Save The Date</h3>
+            <div id="countdown" class="countdown-wrapper">
+                <div class="timer-box">
+                    <span id="days">00</span>
+                    <small>Hari</small>
+                </div>
+                <div class="timer-box">
+                    <span id="hours">00</span>
+                    <small>Jam</small>
+                </div>
+                <div class="timer-box">
+                    <span id="minutes">00</span>
+                    <small>Menit</small>
+                </div>
+                <div class="timer-box">
+                    <span id="seconds">00</span>
+                    <small>Detik</small>
+                </div>
+            </div>
+            <p class="std-date">(Jum'at-Minggu) 12-14 Juni 2026</p>
+<p class="std-time">10.00 - Selesai</p>
+
+
+        <div class="std-photo-area">
+            <div class="flower-decor f-left"></div>
+            <div class="photo-border">
+                <img src="https://res.cloudinary.com/dzuf3srww/image/upload/f_auto,q_auto/v1777899582/Akad_pm5vq5.jpg" alt="Wedding Photo">
+            </div>
+            <div class="flower-decor f-right"></div>
+        </div>
+
+        <div class="std-location">
+            <h4>Resepsi Pernikahan</h4>
+          <p><strong>Kediaman Mempelai Pria </strong><br>
+Ds. Kalibakung RT.06/RW.01 Kec. Balapulang Kab. Tegal Prov. Jateng</p>
+
+<a href="https://maps.app.goo.gl/FGX4PQstdn5fqeiN9" target="_blank" class="btn-maps">
+    Google Maps
+</a>
+
+
+        </div>
+
+    </div>
+</section>
+
+<section id="page7" class="page hidden">
+    <img src="https://res.cloudinary.com/dzuf3srww/image/upload/q_auto,f_auto/v1777904856/Bunga_daun_pojokan_h3ojpa.png" class="leaf-ornament top-right" alt="ornamen">
+    <img src="https://res.cloudinary.com/dzuf3srww/image/upload/q_auto,f_auto/v1777904856/Bunga_daun_pojokan_h3ojpa.png" class="leaf-ornament bottom-left" alt="ornamen">
+
+    <div class="gallery-container">
+        <h2 class="gallery-title">Our Gallery</h2>
+        
+        <div class="gallery-grid">
+            <div class="gallery-item">
+                <img src="https://res.cloudinary.com/dzuf3srww/image/upload/f_auto,q_auto/v1777899566/IMG-20260503-WA0050_kv4f4k.jpg" alt="Foto 1">
+            </div>
+            <div class="gallery-item">
+                <img src="https://res.cloudinary.com/dzuf3srww/image/upload/f_auto,q_auto/v1777899566/IMG-20260503-WA0043_sqkg1l.jpg" alt="Foto 2">
+            </div>
+            <div class="gallery-item">
+                <img src="https://res.cloudinary.com/dzuf3srww/image/upload/f_auto,q_auto/v1777899568/IMG-20260503-WA0047_qhsqhp.jpg" alt="Foto 3">
+            </div>
+            <div class="gallery-item">
+                <img src="https://res.cloudinary.com/dzuf3srww/image/upload/f_auto,q_auto/v1777899576/IMG-20260503-WA0044_nhnygq.jpg" alt="Foto 4">
+            </div>
+            <div class="gallery-item">
+                <img src="https://res.cloudinary.com/dzuf3srww/image/upload/f_auto,q_auto/v1777899574/galeri_gwzecg.jpg" alt="Foto 5">
+            </div>
+            <div class="gallery-item">
+                <img src="https://res.cloudinary.com/dzuf3srww/image/upload/f_auto,q_auto/v1777899570/IMG-20260503-WA0049_esy6he.jpg" alt="Foto 6">
+            </div>
+            <div class="gallery-item">
+                <img src="https://res.cloudinary.com/dzuf3srww/image/upload/f_auto,q_auto/v1777899580/Gallery_2_ynvijr.jpg" alt="Foto 7">
+            </div>
+            <div class="gallery-item">
+                <img src="https://res.cloudinary.com/dzuf3srww/image/upload/f_auto,q_auto/v1777899582/Akad_pm5vq5.jpg" alt="Foto 8">
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Halaman 8: Wedding Gift -->
+<section id="page8" class="hidden"> 
+    <div class="gift-container">
+        <h2 class="gift-title">Wedding Gift</h2>
+        <p class="gift-subtitle">Doa restu Anda merupakan karunia terindah bagi kami. Namun jika Anda ingin memberikan tanda kasih, Anda dapat mengirimkannya melalui:</p>
+
+        <div class="gift-card animasi-gift">
+            <!-- Logo Bank Mandiri -->
+            <img src="https://upload.wikimedia.org/wikipedia/commons/a/ad/Bank_Mandiri_logo_2016.svg" alt="Logo Mandiri" class="bank-logo">
+            
+            <div class="bank-label">BANK MANDIRI</div>
+            <div class="account-details">
+                <!-- ID norek pastikan hanya berisi angka untuk memudahkan copy -->
+                <p class="account-number" id="norek">1010007977620</p>
+                <p class="account-holder">an. M SUSI RIZQI</p>
+            </div>
+            <button class="copy-button" onclick="copyNorek()">
+                <span>Salin Nomor Rekening</span>
+            </button>
+        </div>
+    </div>
+</section>
+
+<!-- PAGE 9: UCAPAN & DOA -->
+<section id="page9" class="wish-section hidden">
+    <div class="container">
+        <h2 class="title" style="font-family: 'Playfair Display', serif;">Ucapan & Doa</h2>
+        <p class="subtitle">Berikan doa restu Anda bagi kedua mempelai</p>
+
+        <!-- STATISTIK KEHADIRAN -->
+        <div class="wish-stats">
+            <div class="stat-item animasi-scroll">
+                <span id="total-pesan">0</span>
+                <p>Pesan</p>
+            </div>
+            <div class="stat-item animasi-scroll">
+                <span id="total-hadir">0</span>
+                <p>Hadir</p>
+            </div>
+            <div class="stat-item animasi-scroll">
+                <span id="total-absen">0</span>
+                <p>Absen</p>
+            </div>
+        </div>
+
+        <!-- FORM INPUT -->
+        <div class="wish-form animasi-scroll">
+            <div class="input-group">
+                <input type="text" id="nama" placeholder="Nama Anda" required>
+            </div>
+            
+            <div class="input-group">
+                <select id="status-kehadiran" class="select-kehadiran">
+                    <option value="" disabled selected>Konfirmasi Kehadiran</option>
+                    <option value="Hadir">Hadir</option>
+                    <option value="Tidak Hadir">Tidak Hadir</option>
+                </select>
+            </div>
+
+            <div class="input-group">
+                <textarea id="pesan" rows="4" placeholder="Tulis ucapan & doa..." required></textarea>
+            </div>
+
+            <button id="btnKirim" onclick="kirimUcapan()" class="btn-primary">
+                Kirim Ucapan
+            </button>
+        </div>
+
+        <!-- CONTAINER DAFTAR PESAN -->
+        <div id="wish-container" class="wish-list animasi-scroll">
+            <!-- Pesan dari Firebase akan di-render di sini -->
+            <div class="loading">Memuat ucapan...</div>
+        </div>
+    </div>
+</section>
+
+<section id="page10" class="hidden">
+    <div class="page-container">
+        <!-- Elemen Dekoratif Atas -->
+        <div class="top-ornament">
+            <div class="line"></div>
+            <span class="leaf-icon">❦</span>
+            <div class="line"></div>
+        </div>
+
+
+        <!-- Frame Foto Polaroid -->
+        <div class="photo-wrapper">
+            <div class="photo-frame">
+                <img src="https://res.cloudinary.com/dzuf3srww/image/upload/f_auto,q_auto/v1777899566/IMG-20260503-WA0050_kv4f4k.jpg" alt="Fela & Rizki">
+            </div>
+        </div>
+
+        <div class="content-section">
+            <h1 class="font-aesthetic title-closing">Terima Kasih</h1>
+            
+            <div class="message">
+                <p>Merupakan suatu kehormatan dan kebahagiaan bagi kami sekeluarga, apabila Bapak/Ibu/Saudara/i berkenan hadir dan memberikan doa restu.</p>
+                <p class="closing-quote">"Sampai jumpa di hari bahagia kami."</p>
+            </div>
+
+            <div class="final-signature">
+                <p>Kami yang berbahagia,</p>
+                <p class="couple-names">Fela & Rizki</p>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="page11" class="hidden">
+    <div class="hero-wrapper">
+        <div class="bg-slider-hero">
+            <div class="bg-slide" style="background-image: url('https://res.cloudinary.com/dzuf3srww/image/upload/f_auto,q_auto/v1777899580/Cover1_da0uc1.jpg');"></div>
+            <div class="bg-slide" style="background-image: url('https://res.cloudinary.com/dzuf3srww/image/upload/f_auto,q_auto/v1777899582/Akad_pm5vq5.jpg');"></div>
+            <div class="bg-slide" style="background-image: url('https://res.cloudinary.com/dzuf3srww/image/upload/f_auto,q_auto/v1777899580/Gallery_2_ynvijr.jpg');"></div>
+            <div class="bg-slide" style="background-image: url('https://res.cloudinary.com/dzuf3srww/image/upload/f_auto,q_auto/v1777899574/galeri_gwzecg.jpg');"></div>
+            <div class="bg-slide" style="background-image: url('https://res.cloudinary.com/dzuf3srww/image/upload/f_auto,q_auto/v1777899570/IMG-20260503-WA0049_esy6he.jpg');"></div>
+        </div>
+
+        <div class="hero-overlay"></div>
+
+        <div class="hero-content">
+            <div class="logo-box-new">
+                <img src="https://res.cloudinary.com/dzuf3srww/image/upload/v1778567591/2_20260419_170516_0001-removebg-preview_rxs6sb.png" alt="Ruang Temu">
+            </div>
+
+            <h1 class="brand-name">RUANG TEMU</h1>
+            <p class="brand-sub">Invitation Design</p>
+
+            <p class="brand-description">
+                Ciptakan momen tak terlupakan dengan undangan digital yang elegan dan personal.
+            </p>
+
+            <div class="voucher-box" onclick="copyVoucher()">
+                <small>KODE PROMO DISKON 10%</small>
+                <div class="code">TEMUBAHAGIA</div>
+                <p class="hint">KLIK UNTUK SALIN KODE</p>
+            </div>
+
+            <a href="https://wa.me/6285624359925?text=Assalamu%27alaikum%20Kak%2C%20saya%20tertarik%20untuk%20memesan%20undangannya.%20Bisa%20bantu%20jelaskan%20prosedur%20dan%20pricelist-nya%3F" class="cta-button" target="_blank">Pesan Undangan</a>
+
+            <div class="social-links">
+                <a href="https://www.instagram.com/ruangtemu.design" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.tiktok.com/@ruangtemu.design" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+                <a href="https://wa.me/6285624359925?text=Assalamu%27alaikum%20Kak%2C%20saya%20tertarik%20untuk%20memesan%20undangannya.%20Bisa%20bantu%20jelaskan%20prosedur%20dan%20pricelist-nya%3F" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+        </div>
+    </div>
+</section>
+<div id="preloader">
+    <div class="loader-content">
+        <img src="https://res.cloudinary.com/dzuf3srww/image/upload/v1778567591/2_20260419_170516_0001-removebg-preview_rxs6sb.png" alt="Logo" class="loader-logo">
+        
+        <p class="loader-text">Tempat berkumpulnya<br> momen dan cerita</p>
+        
+        <div class="loader-line"></div>
+    </div>
+</div>
+
+    <video id="bg-video" playsinline preload="auto" style="display:none;" src="https://res.cloudinary.com/dzuf3srww/video/upload/f_auto,q_auto/v1778135599/Shane_Filan_-_Beautiful_In_White_Official_Video_p9xwme.mp4"></video>
+    
+        <!-- Pastikan type="module" karena kita pakai Firebase Import di JS -->
+    <script type="module" src="script.js"></script>
+
+    
+</body>
+
+</html>

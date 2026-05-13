@@ -1002,8 +1002,8 @@ body {
 }
 
 .std-time {
-    margin-top: 1px; /* Memberi jarak sedikit dengan tanggal */
-    font-size: 0.8rem;
+    margin-top: 0px; /* Memberi jarak sedikit dengan tanggal */
+    font-size: 1.1rem;
     color: #7a6a5e
 }
 

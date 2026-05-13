@@ -1001,6 +1001,13 @@ body {
     margin-bottom: 30px;
 }
 
+.std-time {
+    margin-top: 5px; /* Memberi jarak sedikit dengan tanggal */
+    font-size: 1rem; /* Sesuaikan dengan ukuran std-date */
+    color: #333;      /* Sesuaikan warna dengan tema Anda */
+}
+
+
 /* --- FOTO & BUNGA --- */
 .std-photo-area {
     position: relative;

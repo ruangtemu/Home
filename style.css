@@ -1665,11 +1665,17 @@ body {
     align-items: center;
 }
 
+
 .wish-item p {
     font-size: 0.85rem;
     color: #7a6a5e;
     line-height: 1.5;
     margin: 0;
+    
+    /* Tambahkan ini */
+    overflow-wrap: break-word; /* Memastikan kata panjang patah ke bawah */
+    word-wrap: break-word;      /* Dukungan untuk browser lama */
+    hyphens: auto;              /* (Opsional) Menambah tanda hubung otomatis */
 }
 
 /* CSS UNTUK KOTAK LONJONG (TOAST) - VERSI 2 BARIS */

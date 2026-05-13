@@ -1002,9 +1002,9 @@ body {
 }
 
 .std-time {
-    margin-top: 5px; /* Memberi jarak sedikit dengan tanggal */
-    font-size: 1rem; /* Sesuaikan dengan ukuran std-date */
-    color: #333;      /* Sesuaikan warna dengan tema Anda */
+    margin-top: 1px; /* Memberi jarak sedikit dengan tanggal */
+    font-size: 0.8rem;
+    color: #7a6a5e
 }
 
 

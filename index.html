@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ruang Temu Design - Landing Page</title>
+    
+    <!-- Font Awesome (Hanya menggunakan 1 versi terbaru) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Bikin Undangan<br>Digital <span id="changing-text">Elegan</span></h1>
+        
+        <div class="promo-box">
+            MULAI DARI 35K + DIEDITKAN<br>
+            <span>KAMU TERIMA BERES</span>
+        </div>
+        <br>
+        
+        <a href="https://wa.me/6285624359925?text=Halo%20Ruang%20Temu%20Design%2C%20saya%20tertarik%20untuk%20order%20undangan%20digitalnya.%20Boleh%20tahu%20prosedur%20selanjutnya%3F" class="cta-button" target="_blank">
+            <i class="fab fa-whatsapp"></i> CHAT ADMIN
+        </a>
+        
+        <a href="https://wa.me/6285624359925?text=Halo%20Ruang%20Temu%20Design%2C%20saya%20mau%20klaim%20diskon%2010%25" class="diskon" target="_blank">
+            <i class="fas fa-shopping-cart"></i> DISKON 10%
+        </a>
+    </section>
+
+    <!-- Testimonial Section -->
+    <section class="testimonial-section">
+        <h2>TESTIMONI KLIEN</h2>
+        <div class="slider-container">
+            <div class="slider-track">
+                
+                <div class="testimonial-card">
+                    <img src="https://res.cloudinary.com/dzuf3srww/image/upload/f_auto,q_auto/v1777899568/IMG-20260503-WA0047_qhsqhp.jpg" alt="Fela & Rizki">
+                    <p>"Suka banget sama hasilnya, desainnya benar-benar elegan dan bersih."</p>
+                    <h4>Fela & Rizki</h4>
+                </div>
+                
+                <div class="testimonial-card">
+                    <img src="https://res.cloudinary.com/dzuf3srww/image/upload/v1775005563/gallery4_sdjuby.jpg" alt="Oya & Indra">
+                    <p>"Hasil undangan digitalnya mewah banget. Respon adminnya juga super ramah."</p>
+                    <h4>Oya & Indra</h4>
+                </div>
+                
+                <div class="testimonial-card">
+                    <img src="https://res.cloudinary.com/dzuf3srww/image/upload/v1775012880/Wedding7_fmvmcd.jpg" alt="Misna & Indra">
+                    <p>"Pelayanannya ramah dan hasilnya memuaskan. Terima kasih Ruang Temu 🥰."</p>
+                    <h4>Misna & Indra</h4>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Fitur Section -->
+    <section class="fitur-section">
+        <h2 class="title-fitur">Fitur Undangan</h2>
+        
+        <div class="fitur-grid">
+            
+            <div class="fitur-box">
+                <i class="fa-solid fa-user-check"></i>
+                <span>Nama Tamu</span>
+            </div>
+            
+            <div class="fitur-box">
+                <i class="fa-solid fa-paper-plane"></i>
+                <span>Unlimited Share</span>
+            </div>
+            
+            <div class="fitur-box">
+                <i class="fa-solid fa-list-check"></i>
+                <span>RSVP</span>
+            </div>
+            
+            <div class="fitur-box">
+                <i class="fa-solid fa-images"></i>
+                <span>Gallery Foto</span>
+            </div>
+            
+            <div class="fitur-box">
+                <i class="fa-solid fa-gift"></i>
+                <span>Wedding Gift</span>
+            </div>
+            
+            <div class="fitur-box">
+                <i class="fa-solid fa-heart"></i>
+                <span>Love Story</span>
+            </div>
+            
+            <div class="fitur-box">
+                <i class="fa-solid fa-comments"></i>
+                <span>Kolom Ucapan</span>
+            </div>
+            
+            <div class="fitur-box">
+                <i class="fa-solid fa-music"></i>
+                <span>Backsound</span>
+            </div>
+            
+            <div class="fitur-box">
+                <i class="fa-solid fa-clock"></i>
+                <span>Countdown Acara</span>
+            </div>
+            
+            <div class="fitur-box">
+                <i class="fa-solid fa-location-dot"></i>
+                <span>Google Maps</span>
+            </div>
+            
+            <div class="fitur-box">
+                <i class="fa-solid fa-calendar-days"></i>
+                <span>Pengingat Acara</span>
+            </div>
+            
+            <div class="fitur-box">
+                <i class="fa-solid fa-video"></i>
+                <span>Live Streaming</span>
+            </div>
+            
+        </div>
+    </section>
+
+<!-- ==========================================
+     HALAMAN 3: SECTION TEMA UNDANGAN
+     ========================================== -->
+<section class="tema-section">
+   <h2 class="title-tema">Pilihan Tema</h2>
+<!-- Tambahan tulisan menerima custom -->
+<p class="subtitle-tema">*Menerima Custom</p>
+
+    
+    <!-- Fitur Navigasi Tab (Diubah sesuai permintaan) -->
+    <div class="tab-container">
+        <button class="tab-btn active" onclick="filterTema('semua', this)">Semua</button>
+        <button class="tab-btn" onclick="filterTema('minimalis', this)">Minimalis</button>
+        <button class="tab-btn" onclick="filterTema('elegan', this)">Elegan</button>
+        <button class="tab-btn" onclick="filterTema('country', this)">Country</button>
+    </div>
+    
+    <!-- Grid Pilihan Tema -->
+    <div class="tema-grid">
+        
+        <!-- Tema 1 (Kategori: Minimalis) -->
+        <div class="tema-box" data-category="minimalis">
+            <div class="tema-preview">
+                <!-- TEMPAT NARO LINK FOTO COVER (Ganti URL di dalam src) -->
+                <img src="https://res.cloudinary.com/dzuf3srww/image/upload/v1775005563/gallery4_sdjuby.jpg" alt="Tema Minimalis" class="tema-cover-img">
+                <div class="avatar-wajah">⊙﹏⊙</div>
+            </div>
+            <div class="tema-info">
+                <h3>Minimalis</h3>
+                <div class="tema-action-links">
+                    <!-- LINK PREVIEW UNDANGAN -->
+                    <a href="https://ruangtemudesign.com/preview-minimalis" target="_blank" class="btn-preview"><i class="fas fa-eye"></i> Demo</a>
+                    <!-- LINK LANGSUNG NYAMBUNG KE WA -->
+                    <a href="https://wa.me/6285624359925?text=Halo%20Admin%2C%20saya%20mau%20pesan%20Tema%20Minimalis" target="_blank" class="btn-order"><i class="fab fa-whatsapp"></i> Pesan</a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Tema 2 (Kategori: Elegan) -->
+        <div class="tema-box" data-category="elegan">
+            <div class="tema-preview">
+                <!-- TEMPAT NARO LINK FOTO COVER (Ganti URL di dalam src) -->
+                <img src="https://res.cloudinary.com/dzuf3srww/image/upload/v1775012880/Wedding7_fmvmcd.jpg" alt="Tema Elegan" class="tema-cover-img">
+                <div class="avatar-wajah">Header</div>
+            </div>
+            <div class="tema-info">
+                <h3>Elegan</h3>
+                <div class="tema-action-links">
+                    <!-- LINK PREVIEW UNDANGAN -->
+                    <a href="https://ruangtemudesign.com/preview-elegan" target="_blank" class="btn-preview"><i class="fas fa-eye"></i> Demo</a>
+                    <!-- LINK LANGSUNG NYAMBUNG KE WA -->
+                    <a href="https://wa.me/6285624359925?text=Halo%20Admin%2C%20saya%20mau%20pesan%20Tema%20Elegan" target="_blank" class="btn-order"><i class="fab fa-whatsapp"></i> Pesan</a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Tema 3 (Kategori: Elegan) -->
+        <div class="tema-box" data-category="elegan">
+            <div class="tema-preview">
+                <!-- TEMPAT NARO LINK FOTO COVER (Ganti URL di dalam src) -->
+                <img src="https://res.cloudinary.com/dzuf3srww/image/upload/v1777899568/IMG-20260503-WA0047_qhsqhp.jpg" alt="Tema Custom" class="tema-cover-img">
+                <div class="avatar-wajah">✧(¬‿¬)</div>
+            </div>
+            <div class="tema-info">
+                <h3>Custom Elegan</h3>
+                <div class="tema-action-links">
+                    <!-- LINK PREVIEW UNDANGAN -->
+                    <a href="https://ruangtemudesign.com/preview-custom" target="_blank" class="btn-preview"><i class="fas fa-eye"></i> Demo</a>
+                    <!-- LINK LANGSUNG NYAMBUNG KE WA -->
+                    <a href="https://wa.me/6285624359925?text=Halo%20Admin%2C%20saya%20mau%20pesan%20Tema%20Custom" target="_blank" class="btn-order"><i class="fab fa-whatsapp"></i> Pesan</a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Tema 4 (Kategori: Country) -->
+        <div class="tema-box" data-category="country">
+            <div class="tema-preview">
+                <!-- TEMPAT NARO LINK FOTO COVER (Ganti URL di dalam src) -->
+                <img src="placeholder-country1.jpg" alt="Tema Country" class="tema-cover-img">
+                <div class="avatar-wajah">(ˆ‿ˆ)</div>
+            </div>
+            <div class="tema-info">
+                <h3>Country</h3>
+                <div class="tema-action-links">
+                    <!-- LINK PREVIEW UNDANGAN -->
+                    <a href="https://ruangtemudesign.com/preview-country" target="_blank" class="btn-preview"><i class="fas fa-eye"></i> Demo</a>
+                    <!-- LINK LANGSUNG NYAMBUNG KE WA -->
+                    <a href="https://wa.me/6285624359925?text=Halo%20Admin%2C%20saya%20mau%20pesan%20Tema%20Country" target="_blank" class="btn-order"><i class="fab fa-whatsapp"></i> Pesan</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Tema 5 (Kategori: Minimalis) -->
+        <div class="tema-box" data-category="minimalis">
+            <div class="tema-preview">
+                <!-- TEMPAT NARO LINK FOTO COVER (Ganti URL di dalam src) -->
+                <img src="placeholder-blossom.jpg" alt="Tema Blossom" class="tema-cover-img">
+                <div class="avatar-wajah">✿◡‿◡</div>
+            </div>
+            <div class="tema-info">
+                <h3>Blossom Minimalis</h3>
+                <div class="tema-action-links">
+                    <!-- LINK PREVIEW UNDANGAN -->
+                    <a href="https://ruangtemudesign.com/preview-blossom" target="_blank" class="btn-preview"><i class="fas fa-eye"></i> Demo</a>
+                    <!-- LINK LANGSUNG NYAMBUNG KE WA -->
+                    <a href="https://wa.me/6285624359925?text=Halo%20Admin%2C%20saya%20mau%20pesan%20Tema%20Blossom" target="_blank" class="btn-order"><i class="fab fa-whatsapp"></i> Pesan</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Tema 6 (Kategori: Country) -->
+        <div class="tema-box" data-category="country">
+            <div class="tema-preview">
+                <!-- TEMPAT NARO LINK FOTO COVER (Ganti URL di dalam src) -->
+                <img src="placeholder-warmearth.jpg" alt="Tema Warm Earth" class="tema-cover-img">
+                <div class="avatar-wajah">☕</div>
+            </div>
+            <div class="tema-info">
+                <h3>Warm Earth Country</h3>
+                <div class="tema-action-links">
+                    <!-- LINK PREVIEW UNDANGAN -->
+                    <a href="https://ruangtemudesign.com/preview-warmearth" target="_blank" class="btn-preview"><i class="fas fa-eye"></i> Demo</a>
+                    <!-- LINK LANGSUNG NYAMBUNG KE WA -->
+                    <a href="https://wa.me/6285624359925?text=Halo%20Admin%2C%20saya%20mau%20pesan%20Tema%20Warm%20Earth" target="_blank" class="btn-order"><i class="fab fa-whatsapp"></i> Pesan</a>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</section>
+<section class="tema-section footer-section">
+    <div class="footer-container">
+        
+        <div class="brand-box">
+            <!-- Penambahan Logo Ruang Temu -->
+            <img src="https://res.cloudinary.com/dzuf3srww/image/upload/v1778567591/2_20260419_170516_0001-removebg-preview_rxs6sb.png" alt="Logo Ruang Temu Design" class="brand-logo">
+            <h2 class="brand-title">Ruang Temu</h2>
+            <p class="brand-tagline">Digital Wedding Invitation</p>
+        </div>
+
+        <p class="closing-text">
+            Mari abadikan momen berharga Anda melalui undangan digital yang elegan, minimalis, dan penuh makna. Hubungi kami untuk konsultasi atau intip karya kami di media sosial.
+        </p>
+
+        <div class="social-links">
+            <!-- Instagram -->
+            <a href="https://www.instagram.com/ruangtemu.design" target="_blank" class="social-btn instagram">
+                <span class="icon">
+                    <i class="fab fa-instagram"></i>
+                </span>
+                Instagram
+            </a>
+
+            <!-- TikTok -->
+            <a href="https://www.tiktok.com/@ruangtemu.design" target="_blank" class="social-btn tiktok">
+                <span class="icon">
+                    <i class="fab fa-tiktok"></i>
+                </span>
+                TikTok
+            </a>
+
+            <!-- WhatsApp -->
+            <a href="https://wa.me/6285624359925?text=Halo%20Ruang%20Temu%20Design,%20saya%20tertarik%20untuk%20tanya-tanya%20mengenai%20undangan%20digital%20minimalisnya%20%E2%9C%A8" target="_blank" class="social-btn whatsapp">
+                <span class="icon">
+                    <i class="fab fa-whatsapp"></i>
+                </span>
+                WhatsApp
+            </a>
+        </div>
+
+        <div class="footer-copyright">
+            <p>&copy; 2026 Ruang Temu Design. All Rights Reserved.</p>
+            <p class="crafted-by">Elegant Minimalism Style</p>
+        </div>
+
+    </div>
+</section>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="script.js"></script>
+    
+</body>
+</html>
